@@ -1,0 +1,23 @@
+@import "tailwindcss";
+ 
+
+ @theme{
+    --blue-700: rgb(20,71,230);
+ }
+
+  .gridTemplateColumn{
+   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+ }
+
+  ::-webkit-scrollbar{
+    display: none;   
+ }
+
+ .bg-blue{
+    background-color: var(--blue-700);
+ }
+
+
+ .active hr{
+    display: block;
+ }
